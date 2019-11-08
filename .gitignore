@@ -1,0 +1,7 @@
+bazel-bin
+bazel-example
+bazel-bazel_webpack
+bazel-genfiles
+bazel-out
+bazel-testlogs
+.DS_Store

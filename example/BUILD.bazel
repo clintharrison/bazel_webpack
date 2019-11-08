@@ -1,0 +1,13 @@
+load("@bazel_webpack//:index.bzl", "webpack_bundle")
+
+webpack_bundle(
+    name = "bundle",
+    config = "webpack.config.js",
+    srcs = [
+        "index.js",
+        "strings.js",
+    ],
+    bundle_output = "bundle.js",
+    mode = "production",
+    entry_point = "index.js",
+)
